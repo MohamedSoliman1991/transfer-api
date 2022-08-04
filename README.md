@@ -47,9 +47,9 @@ This application provides APIs for following 2 features
 | GET | /api/v1/accounts | retrieve accounts info |
 | POST | /api/v1/transfer | send money transaction |
 ### Swagger-UI
-API Specification is provided in the [swagger-ui page](http://localhost:8080/swagger-ui.html) after application starts.
+API Specification is provided in the [swagger-ui page](http://localhost:8080/api/v1/swagger-ui.html) after application starts.
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/api/v1/swagger-ui.html
 ```
 ### Error Code
 | Code | Description |
