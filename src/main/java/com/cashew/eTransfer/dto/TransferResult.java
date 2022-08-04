@@ -1,12 +1,14 @@
 package com.cashew.eTransfer.dto;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+
 import java.io.Serializable;
 import java.math.BigDecimal;
 
 public class TransferResult implements Serializable {
 	
 	private Long accountFromId;
-	
+	@JsonSerialize()
 	private BigDecimal balanceAfterTransfer;
 
 	public Long getAccountFromId() {

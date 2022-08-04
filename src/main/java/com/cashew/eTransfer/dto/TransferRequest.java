@@ -14,10 +14,12 @@ public class TransferRequest {
 	
 	@NotNull
 	@ApiModelProperty(required = true)
+	@Min(value = 1, message = " Source Account is mandatory")
 	private Long accountFromId;
 
 	@NotNull
 	@ApiModelProperty(required = true)
+	@Min(value = 1, message = "Beneficiary account is mandatory")
 	private Long accountToId;
 
 	@NotNull

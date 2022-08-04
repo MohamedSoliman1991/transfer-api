@@ -6,6 +6,7 @@ public class ErrorCode {
 	 */
 	public static final String SYSTEM_ERROR = "ERR_SYS";
 
+
 	/**
 	 * Error Code for general client error
 	 */
@@ -15,5 +16,10 @@ public class ErrorCode {
 	 * Error Code for any error related to account
 	 */
 	public static final String ACCOUNT_ERROR = "ERR_CLIENT_002";
+
+	/**
+	 * Error Code for transferred amount
+	 */
+	public static final String AMOUNT_ERROR = "ERR_CLIENT_003";
 	
 }
